@@ -4,10 +4,258 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sounds name="sound">
+    <sound>sound\s_court</sound>
+    <sound>sound\s_play</sound>
+    <sound>sound\s_title</sound>
+  </sounds>
+  <sprites name="sprites">
+    <sprites name="player">
+      <sprite>sprites\spr_player_up</sprite>
+      <sprite>sprites\spr_player_down</sprite>
+      <sprite>sprites\spr_player_right</sprite>
+      <sprite>sprites\spr_player_left</sprite>
+    </sprites>
+    <sprites name="lion and teeth">
+      <sprite>sprites\spr_lion</sprite>
+      <sprite>sprites\spr_lion2</sprite>
+      <sprite>sprites\spr_lion3</sprite>
+      <sprite>sprites\spr_lion4</sprite>
+      <sprite>sprites\spr_lion5</sprite>
+      <sprite>sprites\spr_humantooth</sprite>
+      <sprite>sprites\spr_lobbytooth</sprite>
+      <sprite>sprites\spr_childtooth</sprite>
+      <sprite>sprites\spr_leaftooth</sprite>
+    </sprites>
+    <sprites name="courtyard">
+      <sprites name="plants">
+        <sprite>sprites\spr_greenleafy</sprite>
+        <sprite>sprites\spr_purpleleafy</sprite>
+        <sprite>sprites\spr_redleafy</sprite>
+        <sprite>sprites\spr_lucky</sprite>
+        <sprite>sprites\spr_orangeweeds</sprite>
+        <sprite>sprites\spr_orangevine</sprite>
+        <sprite>sprites\spr_orangebud</sprite>
+        <sprite>sprites\spr_goldvine</sprite>
+        <sprite>sprites\spr_orangewaves</sprite>
+        <sprite>sprites\spr_greenvine</sprite>
+        <sprite>sprites\spr_cactus</sprite>
+      </sprites>
+      <sprite>sprites\spr_courtyardframe</sprite>
+      <sprite>sprites\spr_pileodirt</sprite>
+      <sprite>sprites\spr_eyes</sprite>
+      <sprite>sprites\spr_eyes2</sprite>
+      <sprite>sprites\spr_courtyardwall</sprite>
+      <sprite>sprites\spr_courtyardtriangle</sprite>
+      <sprite>sprites\spr_blackwall</sprite>
+      <sprite>sprites\spr_grass</sprite>
+    </sprites>
+    <sprites name="lobby">
+      <sprites name="candle">
+        <sprite>sprites\spr_candle2</sprite>
+        <sprite>sprites\spr_candle3</sprite>
+        <sprite>sprites\spr_candle1</sprite>
+        <sprite>sprites\spr_candle5</sprite>
+        <sprite>sprites\spr_candle4</sprite>
+        <sprite>sprites\spr_g_candle1</sprite>
+        <sprite>sprites\spr_g_candle2</sprite>
+        <sprite>sprites\spr_g_candle5</sprite>
+        <sprite>sprites\spr_g_candle3</sprite>
+        <sprite>sprites\spr_g_candle4</sprite>
+      </sprites>
+      <sprite>sprites\spr_waterleft</sprite>
+      <sprite>sprites\spr_waterright</sprite>
+      <sprite>sprites\spr_drapes</sprite>
+      <sprite>sprites\spr_fountain</sprite>
+      <sprite>sprites\spr_firebowl</sprite>
+      <sprite>sprites\spr_lobbywall</sprite>
+      <sprite>sprites\spr_cat</sprite>
+      <sprite>sprites\spr_web</sprite>
+      <sprite>sprites\spr_web2</sprite>
+      <sprite>sprites\spr_crack1</sprite>
+      <sprite>sprites\spr_crack2</sprite>
+      <sprite>sprites\spr_crack3</sprite>
+      <sprite>sprites\spr_drape2</sprite>
+      <sprite>sprites\spr_drape1</sprite>
+    </sprites>
+    <sprites name="playroom">
+      <sprite>sprites\spr_rug</sprite>
+      <sprite>sprites\spr_bag2</sprite>
+      <sprite>sprites\spr_shelf</sprite>
+      <sprite>sprites\spr_drawing10</sprite>
+      <sprite>sprites\spr_drawing9</sprite>
+      <sprite>sprites\spr_drawing8</sprite>
+      <sprite>sprites\spr_drawing7</sprite>
+      <sprite>sprites\spr_drawing6</sprite>
+      <sprite>sprites\spr_drawing5</sprite>
+      <sprite>sprites\spr_drawing4</sprite>
+      <sprite>sprites\spr_drawing3</sprite>
+      <sprite>sprites\spr_drawing2</sprite>
+      <sprite>sprites\spr_drawing1</sprite>
+      <sprite>sprites\spr_dangle2</sprite>
+      <sprite>sprites\spr_dangle1</sprite>
+      <sprite>sprites\spr_playwall</sprite>
+      <sprite>sprites\spr_bag1</sprite>
+    </sprites>
+    <sprites name="life forms">
+      <sprite>sprites\spr_double</sprite>
+      <sprite>sprites\spr_ramkid</sprite>
+      <sprite>sprites\spr_euri</sprite>
+      <sprite>sprites\spr_uh</sprite>
+      <sprite>sprites\spr_oni</sprite>
+      <sprite>sprites\spr_skel_head</sprite>
+      <sprite>sprites\spr_skelbody</sprite>
+    </sprites>
+    <sprites name="helper">
+      <sprite>sprites\spr_wall</sprite>
+      <sprite>sprites\spr_roomchange</sprite>
+      <sprite>sprites\spr_dialog</sprite>
+      <sprite>sprites\spr_sign</sprite>
+      <sprite>sprites\spr_nothing</sprite>
+    </sprites>
+    <sprites name="title">
+      <sprite>sprites\spr_titlebanner</sprite>
+      <sprite>sprites\spr_ending</sprite>
+      <sprite>sprites\spr_realcredits</sprite>
+      <sprite>sprites\spr_title</sprite>
+    </sprites>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_brick</background>
+    <background>background\background1</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="player">
+      <script>scripts\scr_move_state.gml</script>
+    </scripts>
+    <scripts name="helper">
+      <script>scripts\scr_get_input.gml</script>
+      <script>scripts\scr_toothhandling.gml</script>
+    </scripts>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_player</object>
+    <objects name="lion and teeth">
+      <object>objects\obj_lion</object>
+      <object>objects\obj_lobbytooth</object>
+      <object>objects\obj_leaftooth</object>
+      <object>objects\obj_childtooth</object>
+      <object>objects\obj_humantooth</object>
+    </objects>
+    <objects name="lobby">
+      <objects name="candles">
+        <object>objects\obj_candle2</object>
+        <object>objects\obj_candle4</object>
+        <object>objects\obj_g_candle4</object>
+        <object>objects\obj_g_candle2</object>
+        <object>objects\obj_candle1</object>
+        <object>objects\obj_g_candle1</object>
+        <object>objects\obj_g_candle3</object>
+        <object>objects\obj_g_candle5</object>
+        <object>objects\obj_candle3</object>
+        <object>objects\obj_candle5</object>
+      </objects>
+      <object>objects\obj_waterleft</object>
+      <object>objects\obj_web2</object>
+      <object>objects\obj_waterright</object>
+      <object>objects\obj_drapes</object>
+      <object>objects\obj_firebowl</object>
+      <object>objects\obj_drape1</object>
+      <object>objects\obj_drape2</object>
+      <object>objects\obj_fountain</object>
+      <object>objects\obj_web</object>
+      <object>objects\obj_crack3</object>
+      <object>objects\obj_crack2</object>
+      <object>objects\obj_crack1</object>
+      <object>objects\obj_sign</object>
+    </objects>
+    <objects name="courtyard">
+      <object>objects\obj_courtyardframe</object>
+      <object>objects\obj_pileodirt</object>
+      <object>objects\obj_courtyardbackwall</object>
+      <objects name="plants">
+        <object>objects\obj_lucky</object>
+        <object>objects\obj_greenvine</object>
+        <object>objects\obj_greenleafy</object>
+        <object>objects\obj_purpleleafy</object>
+        <object>objects\obj_redleafy</object>
+        <object>objects\obj_goldvine</object>
+        <object>objects\obj_orangewaves</object>
+        <object>objects\obj_orangeweeds</object>
+        <object>objects\obj_orangebud</object>
+        <object>objects\obg_orangevine</object>
+      </objects>
+      <object>objects\obj_eyes</object>
+      <object>objects\obj_eyes2</object>
+      <object>objects\obj_courtyardwall</object>
+      <object>objects\obj_courtyardtriangle</object>
+      <object>objects\obj_grass</object>
+      <object>objects\obj_blackwall</object>
+      <object>objects\obj_cactus</object>
+      <object>objects\obj_cat</object>
+    </objects>
+    <objects name="helper">
+      <object>objects\obj_view</object>
+      <object>objects\obj_wall</object>
+      <object>objects\obj_parent</object>
+      <object>objects\obj_invisiblewall</object>
+      <object>objects\obj_dialog</object>
+      <object>objects\obj_quit</object>
+    </objects>
+    <objects name="playroom">
+      <object>objects\obj_rug</object>
+      <object>objects\obj_dangle1</object>
+      <object>objects\obj_drawing10</object>
+      <object>objects\obj_drawing8</object>
+      <object>objects\obj_drawing9</object>
+      <object>objects\obj_drawing7</object>
+      <object>objects\obj_drawing2</object>
+      <object>objects\obj_bag1</object>
+      <object>objects\obj_bag2</object>
+      <object>objects\obj_shelf</object>
+      <object>objects\obj_dangle2</object>
+      <object>objects\obj_drawing1</object>
+      <object>objects\obj_drawing6</object>
+      <object>objects\obj_drawing5</object>
+      <object>objects\obj_drawing4</object>
+      <object>objects\obj_playwall</object>
+      <object>objects\obj_drawing3</object>
+    </objects>
+    <objects name="room transitions">
+      <object>objects\obj_gotolobby</object>
+      <object>objects\obj_gotoplay</object>
+      <object>objects\obj_gotocourtyard</object>
+    </objects>
+    <objects name="life forms">
+      <object>objects\obj_ramkid</object>
+      <object>objects\obj_double</object>
+      <object>objects\obj_oni</object>
+      <object>objects\obj_uh</object>
+      <object>objects\obj_euri</object>
+      <object>objects\obj_skelbody</object>
+    </objects>
+    <objects name="title">
+      <object>objects\obj_titlebanner</object>
+      <object>objects\obj_ending</object>
+      <object>objects\obj_realcredits</object>
+      <object>objects\obj_title</object>
+    </objects>
+    <objects name="music">
+      <object>objects\obj_s_play</object>
+      <object>objects\obj_s_court</object>
+      <object>objects\obj_s_sound</object>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_title</room>
+    <room>rooms\rm_void</room>
+    <room>rooms\rm_lobby</room>
+    <room>rooms\rm_courtyard</room>
+    <room>rooms\rm_play</room>
+    <room>rooms\rm_credits</room>
+    <room>rooms\rm_realcredits</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
