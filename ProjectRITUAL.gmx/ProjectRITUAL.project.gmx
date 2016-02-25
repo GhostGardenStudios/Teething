@@ -122,7 +122,6 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_brick</background>
-    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
