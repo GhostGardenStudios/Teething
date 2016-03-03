@@ -8,6 +8,7 @@
     <sound>sound\s_court</sound>
     <sound>sound\s_play</sound>
     <sound>sound\s_title</sound>
+    <sound>sound\s_lobby</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="player">
@@ -69,7 +70,6 @@
       <sprite>sprites\spr_fountain</sprite>
       <sprite>sprites\spr_firebowl</sprite>
       <sprite>sprites\spr_lobbywall</sprite>
-      <sprite>sprites\spr_cat</sprite>
       <sprite>sprites\spr_web</sprite>
       <sprite>sprites\spr_web2</sprite>
       <sprite>sprites\spr_crack1</sprite>
@@ -99,6 +99,7 @@
     </sprites>
     <sprites name="life forms">
       <sprite>sprites\spr_double</sprite>
+      <sprite>sprites\spr_cat</sprite>
       <sprite>sprites\spr_ramkid</sprite>
       <sprite>sprites\spr_euri</sprite>
       <sprite>sprites\spr_uh</sprite>
@@ -244,6 +245,7 @@
       <object>objects\obj_s_play</object>
       <object>objects\obj_s_court</object>
       <object>objects\obj_s_sound</object>
+      <object>objects\obj_s_lobby</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -254,6 +256,7 @@
     <room>rooms\rm_play</room>
     <room>rooms\rm_credits</room>
     <room>rooms\rm_realcredits</room>
+    <room>rooms\rm_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
