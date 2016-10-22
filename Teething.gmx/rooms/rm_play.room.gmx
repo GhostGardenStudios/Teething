@@ -86,7 +86,7 @@ instance_create(367,204,obj_childtooth);
     <instance objName="obj_oni" x="502" y="310" name="inst_C6E20035" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_skelbody" x="721" y="251" name="inst_FD5F275D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_s_play" x="673" y="405" name="inst_F54BACC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_quit" x="661" y="317" name="inst_9371309B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_extra" x="661" y="317" name="inst_9371309B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

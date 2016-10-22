@@ -69,7 +69,7 @@
     <instance objName="obj_gotocourtyard" x="-38" y="497" name="inst_EB9547DB" locked="0" code="" scaleX="1.41935479640961" scaleY="3.48000001907349" colour="4294967295" rotation="0"/>
     <instance objName="obj_gotoplay" x="989" y="503" name="inst_0C2CEA42" locked="0" code="" scaleX="1.03125" scaleY="3.25" colour="4294967295" rotation="0"/>
     <instance objName="obj_sign" x="469" y="266" name="inst_96B1CA09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_quit" x="238" y="268" name="inst_9F85BBA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_extra" x="238" y="268" name="inst_9F85BBA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_courtyardbackwall" x="255" y="91" name="inst_238FF233" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="-67" y="618" name="inst_353E7E9B" locked="0" code="" scaleX="27.625" scaleY="10.21875" colour="4294967295" rotation="0"/>
     <instance objName="obj_waterleft" x="370" y="250" name="inst_02909225" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

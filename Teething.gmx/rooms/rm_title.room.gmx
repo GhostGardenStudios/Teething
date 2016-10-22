@@ -68,7 +68,7 @@ global.numtooth = 0;</code>
     <instance objName="obj_title" x="480" y="271" name="inst_12F1A393" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_titlebanner" x="282" y="-10" name="inst_7C3A2C26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_s_sound" x="63" y="54" name="inst_837805E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_quit" x="166" y="420" name="inst_AAF9BDEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_extra" x="166" y="420" name="inst_AAF9BDEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

@@ -160,7 +160,7 @@ instance_create(443,340,obj_leaftooth);
     <instance objName="obj_ramkid" x="538" y="218" name="inst_A6591C0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_uh" x="98" y="401" name="inst_1A870536" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_s_court" x="725" y="460" name="inst_A8DE1837" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_quit" x="750" y="206" name="inst_117A791E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_extra" x="750" y="206" name="inst_117A791E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

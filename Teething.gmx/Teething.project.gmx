@@ -134,6 +134,10 @@
       <script>scripts\scr_toothhandling.gml</script>
     </scripts>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\ft_dialog</font>
+    <font>fonts\ft_fsdialog</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <objects name="lion and teeth">
@@ -201,7 +205,7 @@
       <object>objects\obj_parent</object>
       <object>objects\obj_invisiblewall</object>
       <object>objects\obj_dialog</object>
-      <object>objects\obj_quit</object>
+      <object>objects\obj_extra</object>
     </objects>
     <objects name="playroom">
       <object>objects\obj_rug</object>
